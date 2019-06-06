@@ -1,6 +1,10 @@
 module.exports = {
   assetsDir: 'assets',
+
   css: {
-    sourceMap: true
-  }
-}
+    sourceMap: true,
+    extract: false
+  },
+
+  runtimeCompiler: true
+};
